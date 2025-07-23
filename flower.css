@@ -257,6 +257,10 @@ body {
     border: none;
 }
 
+.btn:hover {
+    background-color: purple;
+}
+
 /* Responsible part for Card section */
 
 @media (max-width: 768px) {
@@ -300,7 +304,11 @@ body {
 .trusted {
     margin-left: -150px;
     margin-top: -120px;
+
 }
+
+
+
 
 .trusted img {
     max-width: 280px;
@@ -564,6 +572,11 @@ body {
 }
 
 
+.search-container button:hover {
+    background-color: skyblue;
+
+}
+
 
 
 /* Mobile responsible part for newsletter part */
@@ -674,6 +687,11 @@ body {
     .footer-link li {
         color: rgba(107, 114, 128, 1);
         margin-left: -150px;
+
+    }
+
+    .footer-link {
+        margin-top: -50px;
     }
 
     .social-icons {
@@ -682,6 +700,7 @@ body {
         margin-top: 0;
         gap: 15px;
         margin-left: -140px;
+        margin-top: -30px;
     }
 
 
