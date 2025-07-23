@@ -1,0 +1,345 @@
+/* Shared Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.display-flex {
+    display: flex;
+}
+
+.p-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* Header part styles */
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 30px;
+    /* padding: 20px 50px; */
+
+
+}
+
+/* .logo img {
+    width: 50px;
+} */
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 40px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item i {
+    margin-right: 5px;
+}
+
+/* Background BAnner section */
+
+.background-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 60px 50px; */
+    /* background-color: #fff; */
+    margin-top: 120px;
+}
+
+.banner-details {
+    margin-top: 70px;
+    max-width: 570px;
+}
+
+.banner-details h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+
+.fresh,
+.flowers {
+    color: #E95A08;
+}
+
+.banner-details p {
+    margin-top: 13px;
+    max-width: 570px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.big-flower {
+    max-width: 100%;
+}
+
+.big-flower img {
+    max-width: 100%;
+    margin-right: 35px;
+}
+
+
+/* Mobile responsiveness for this header section */
+
+
+@media (max-width: 768px) {
+
+
+    .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 20px;
+        /* align-items: flex-start; */
+        padding: 20px;
+
+    }
+
+    .nav-links .nav-item {
+        display: none;
+
+
+    }
+
+
+
+
+    .nav-links .cart {
+        display: block !important;
+        margin-top: 30px;
+        margin-right: -4px;
+        font-size: 25px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+
+    .background-section-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+
+
+    .banner-details h1 {
+        font-size: 35px;
+    }
+
+    .banner-details {
+        text-align: left;
+
+    }
+
+    .big-flower {
+        width: 700px;
+        margin-left: 50px;
+    }
+
+    .big-flower img {
+        width: 100%;
+
+    }
+}
+
+
+/* FLower Text Section */
+
+.flower-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flower-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+
+.flower-text p {
+    margin-top: 20px;
+
+}
+
+
+/* Flower card section */
+
+.flower-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    /* padding: 20px; */
+    margin-top: 40px;
+
+}
+
+.flower-card {
+    background-color: white;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.flower-card img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: black;
+    line-height: 150%;
+}
+
+.price {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: black;
+    line-height: 150%;
+}
+
+.btn {
+
+    padding: 10px 75px;
+    margin-top: 20px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+}
+
+/* Responsible part for Card section */
+
+@media (max-width: 768px) {
+
+    .flower-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+
+    }
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    .p-text {
+        text-align: center;
+        width: 370px;
+        margin-left: 10px;
+    }
+
+
+}
+
+
+/* Flower and plant details */
+
+.flower-plant-container {
+    margin-top: 150px;
+
+}
+
+
+
+.man-pic img {
+    width: 450px;
+
+}
+
+.trusted {
+    margin-left: -150px;
+    margin-top: -120px;
+}
+
+.trusted img {
+    max-width: 280px;
+}
+
+.flower-plant-details {
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+
+.flower-plant-details h2 {
+    font-size: 40px;
+}
+
+.flower-plant-details ul li {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* Responsive part for Flower and plant section */
+
+@media (max-width: 768px) {
+
+    .flower-plant-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trusted {
+        display: none;
+    }
+
+    .man-pic img {
+        max-width: 380px;
+        padding: 18px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flower-plant-details {
+        padding: 32px;
+        max-width: 400px;
+        margin-top: -20px;
+    }
+
+
+}
