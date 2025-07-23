@@ -252,6 +252,7 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 40px;
+        margin-left: 10px;
 
     }
 
@@ -331,12 +332,18 @@ body {
         padding: 18px;
         justify-content: center;
         align-items: center;
+        margin-left: 5px;
     }
 
     .flower-plant-details {
-        padding: 32px;
+        padding: 45px;
         max-width: 400px;
         margin-top: -20px;
+    }
+
+    .flower-plant-details h2 {
+        width: 500px;
+
     }
 
 
@@ -369,4 +376,102 @@ body {
 .latest-deals h2 {
     font-size: 50px;
     font-family: "Noto Serif", serif;
+}
+
+
+
+
+
+
+
+
+/* Ana Zabo Bollom plant section pic */
+
+
+
+.plant-offers {
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    /* background: #f4f7ff; */
+    font-family: sans-serif;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.offer-box,
+.right-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: white;
+    /* overflow: hidden; */
+}
+
+.offer-box {
+    width: 390px;
+    height: 190px;
+}
+
+.right-box {
+    flex: 1;
+    height: 406px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay h3,
+.overlay h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.overlay a {
+    display: inline-block;
+    padding: 8px 16px;
+    /* background: white; */
+    color: white;
+    /* text-decoration: none; */
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+/* Mobile responsible for Plant offers section */
+
+@media (max-width: 768px) {
+    .plant-offers {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+
+    }
+
+    .left-column {
+        width: 100%;
+    }
+
+    .offer-box {
+        width: 100%;
+        height: 190px;
+    }
+
+    .right-box {
+        width: 100%;
+        /* full width */
+        height: 190px;
+        flex: none;
+    }
 }
