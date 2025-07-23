@@ -406,7 +406,7 @@ body {
 
 
 
-/* Ana Zabo Bollom plant section pic */
+/* Ana Zabo Bollom plant section pic and part */
 
 
 
@@ -414,7 +414,6 @@ body {
     display: flex;
     gap: 40px;
     padding: 30px;
-    /* background: #f4f7ff; */
     font-family: sans-serif;
     margin-top: 40px;
 }
@@ -434,6 +433,8 @@ body {
     color: white;
     /* overflow: hidden; */
 }
+
+/* Picture dark little bit */
 
 .offer-box::before,
 .right-box::before {
@@ -520,7 +521,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* width: 1200px; */
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -571,6 +571,7 @@ body {
 
 }
 
+/* Hover effect for button */
 
 .search-container button:hover {
     background-color: skyblue;
@@ -617,7 +618,6 @@ body {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    /* justify-content: space-around; */
     color: black;
 
 }
@@ -707,3 +707,5 @@ body {
 
 
 }
+
+/* Single section and single section responsive done */
