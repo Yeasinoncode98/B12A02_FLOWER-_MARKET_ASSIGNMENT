@@ -36,16 +36,12 @@ body {
 .nav-bar {
     justify-content: space-between;
     align-items: center;
-    /* justify-content: center; */
     margin-top: 30px;
-    /* padding: 20px 50px; */
+
 
 
 }
 
-/* .logo img {
-    width: 50px;
-} */
 
 
 .nav-item {
@@ -304,6 +300,7 @@ body {
 
 .flower-plant-details h2 {
     font-size: 40px;
+    font-family: "Noto Serif", serif;
 }
 
 .flower-plant-details ul li {
@@ -322,6 +319,7 @@ body {
     .flower-plant-container {
         display: flex;
         flex-direction: column;
+        margin-top: -20px;
     }
 
     .trusted {
@@ -342,4 +340,33 @@ body {
     }
 
 
+}
+
+
+
+/* Latest deals text section */
+
+.latest-deals {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.latest-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.latest-card-text {
+    color: #E95A08;
+
+
+}
+
+.latest-deals h2 {
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
 }
