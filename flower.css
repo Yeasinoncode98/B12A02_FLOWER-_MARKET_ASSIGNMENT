@@ -1,8 +1,5 @@
 /* Shared Styles */
 
-
-
-
 * {
     padding: 0;
     margin: 0;
@@ -45,10 +42,6 @@ body {
 
 }
 
-html,
-body {
-    overflow-x: hidden;
-}
 
 
 
