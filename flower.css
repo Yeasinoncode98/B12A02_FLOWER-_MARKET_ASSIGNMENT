@@ -125,13 +125,6 @@ img {
     margin-right: 35px;
 }
 
-@media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-}
-
-
 
 /* Mobile responsiveness for this header section */
 
