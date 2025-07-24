@@ -70,11 +70,15 @@ body {
 #shop,
 #about-us {
     color: #8987A1;
+
+
 }
 
 
 .nav-text {
     font-family: "Inter", sans-serif;
+    /* color: red; */
+
 }
 
 /* Background BAnner section */
@@ -588,6 +592,7 @@ body {
     .search-container input {
         max-width: 250px;
         /* border-radius: 10px; */
+        margin-left: 74px;
     }
 
     .search-container button {
@@ -599,12 +604,17 @@ body {
 
         width: 900px;
         font-size: 30px;
-        margin-right: 80px;
+        /* margin-right: 90px; */
+
     }
 
     .colorful-bunch-section {
-        width: 500px;
+        width: 420px;
 
+    }
+
+    .colorful-bunch-section img {
+        max-width: 500px;
     }
 
     .search-container {
