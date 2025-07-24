@@ -587,10 +587,12 @@ body {
 
     .search-container input {
         max-width: 250px;
+        /* border-radius: 10px; */
     }
 
     .search-container button {
         max-width: 100px;
+        /* border-radius: 10px; */
     }
 
     .colorful-bunch-section h1 {
