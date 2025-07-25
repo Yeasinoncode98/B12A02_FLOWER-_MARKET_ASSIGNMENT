@@ -636,16 +636,17 @@ body {
 @media (max-width: 576px) {
 
 
-    html,
+    /* html,
     body {
         overflow-x: hidden;
         width: 100%;
-    }
+    } */
 
     .search-container input {
         max-width: 250px;
+        width: 100%;
         /* border-radius: 10px; */
-        margin-left: 74px;
+        margin-left: 80px;
     }
 
     .search-container button {
@@ -768,18 +769,50 @@ body {
         align-items: center;
         margin-top: 0;
         gap: 15px;
-        margin-left: -140px;
-        margin-top: -30px;
-        /* margin-bottom: 300px; */
+        /* margin-left: -140px; */
+        /* margin-top: -300px; */
+        margin-right: 90px;
+        gap: 20px;
+
     }
 
 
+}
+
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .footer-all {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+
+    /* .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    } */
 
 
 }
 
 .display {
     display: none;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
 }
 
 /* Single section and single section responsive done */
