@@ -127,11 +127,26 @@ body {
     margin-right: 35px;
 }
 
+.flower-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flower-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+
+.flower-text p {
+    margin-top: 20px;
+
+}
 
 /* Mobile responsiveness for this header section */
 
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
 
     .nav-bar {
@@ -182,35 +197,42 @@ body {
     }
 
     .big-flower {
-        width: 700px;
-        margin-left: 50px;
+        width: 400px;
+        margin-right: -35px;
+        /* padding-left: 10px; */
+        overflow-x: hidden;
+
     }
 
     .big-flower img {
         width: 100%;
 
     }
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* FLower Text Section */
+
+    .flower-text {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .flower-text h2 {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Noto Serif", serif;
+        margin-top: -100px;
+    }
+
+    .flower-text p {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
 }
-
-
-/* FLower Text Section */
-
-.flower-text {
-    text-align: center;
-    margin-top: 100px;
-}
-
-.flower-text h2 {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: "Noto Serif", serif;
-}
-
-.flower-text p {
-    margin-top: 20px;
-
-}
-
 
 /* Flower card section */
 
@@ -269,13 +291,14 @@ body {
 
 /* Responsible part for Card section */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
     .flower-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 40px;
         margin-left: 30px;
+
 
     }
 
@@ -340,26 +363,45 @@ body {
 
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* Responsive part for Flower and plant section */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
     .flower-plant-container {
         display: flex;
         flex-direction: column;
         margin-top: -20px;
+        width: 100%;
+        overflow: hidden;
     }
 
     .trusted {
         display: none;
     }
 
-    .man-pic img {
-        max-width: 380px;
-        padding: 18px;
+    .man-pic {
+        width: 100%;
+        display: flex;
         justify-content: center;
+        overflow: hidden;
+        padding: 0 10px;
+    }
+
+    .man-pic img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        /* padding: 10px; */
+        margin: 0;
+        display: block;
+        /* justify-content: center;
         align-items: center;
         margin-left: 15px;
+        overflow-x: hidden; */
     }
 
     .flower-plant-details {
@@ -370,7 +412,7 @@ body {
 
     .flower-plant-details h2 {
         width: 500px;
-
+        margin-left: -10px;
     }
 
 
@@ -383,6 +425,7 @@ body {
 .latest-deals {
     text-align: center;
     margin-top: 70px;
+    margin-top: -20px;
 }
 
 .latest-text {
@@ -492,7 +535,7 @@ body {
 
 /* Mobile responsible for Plant offers section */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .plant-offers {
         flex-direction: column;
         gap: 20px;
@@ -535,6 +578,8 @@ body {
     text-align: center;
     color: white;
     margin-top: 100px;
+    overflow: hidden;
+    width: 100%;
 
 }
 
@@ -588,7 +633,14 @@ body {
 
 /* Mobile responsible part for newsletter part */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
 
     .search-container input {
         max-width: 250px;
@@ -610,8 +662,9 @@ body {
     }
 
     .colorful-bunch-section {
-        width: 450px;
-
+        /* width: 450px; */
+        width: 100%;
+        margin-left: 1px;
     }
 
     .colorful-bunch-section img {
@@ -681,7 +734,7 @@ body {
 
 /* Footer Part Mobile responsible */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .footer-all {
         display: flex;
         flex-direction: column;
@@ -725,63 +778,8 @@ body {
 
 }
 
-/* Single section and single section responsive done  and finished*/
-
-@media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .big-flower {
-        width: 100% !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-
-    .colorful-bunch-section {
-        width: 100% !important;
-        padding: 20px !important;
-    }
-
-    .colorful-bunch-section h1 {
-        width: 100% !important;
-        font-size: 30px !important;
-    }
-
-    .search-container {
-        flex-direction: column !important;
-        align-items: center !important;
-        padding: 0 !important;
-        gap: 10px !important;
-    }
-
-    .search-container input {
-        max-width: 100% !important;
-        margin-left: 0 !important;
-    }
-
-    .search-container button {
-        max-width: 100% !important;
-        margin-left: 0 !important;
-    }
-
-    .flower-container {
-        margin-left: 0 !important;
-        padding: 0 10px !important;
-    }
-
-    .p-text {
-        width: 100% !important;
-        margin-left: 0 !important;
-        text-align: center !important;
-    }
-
-    .footer-all {
-        width: 100% !important;
-        overflow-x: hidden !important;
-    }
-
-    .flower-plant-details h2 {
-        width: 100% !important;
-    }
+.display {
+    display: none;
 }
+
+/* Single section and single section responsive done */
