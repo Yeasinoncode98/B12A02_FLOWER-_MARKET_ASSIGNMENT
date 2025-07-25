@@ -197,8 +197,9 @@ body {
     }
 
     .big-flower {
-        width: 400px;
+        width: 380px;
         margin-right: -35px;
+        /* margin-left: 80px; */
         /* padding-left: 10px; */
         overflow-x: hidden;
 
@@ -769,8 +770,6 @@ body {
         align-items: center;
         margin-top: 0;
         gap: 15px;
-        /* margin-left: -140px; */
-        /* margin-top: -300px; */
         margin-right: 90px;
         gap: 20px;
 
@@ -787,24 +786,20 @@ body {
     .footer-all {
         width: 100%;
         display: flex;
+
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 20px;
+        /* overflow: hidden; */
     }
 
 
-    /* .social-icons {
-        flex-wrap: wrap;
-        justify-content: center;
-
-        gap: 10px;
-        margin: 0;
-        padding: 0;
-    } */
 
 
 }
+
+
 
 .display {
     display: none;
