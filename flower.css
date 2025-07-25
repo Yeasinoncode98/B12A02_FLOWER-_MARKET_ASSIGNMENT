@@ -726,3 +726,9 @@ body {
 }
 
 /* Single section and single section responsive done  and finished*/
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+}
